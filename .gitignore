@@ -1,17 +1,76 @@
-# Flutter/Dart/Pub
+# Flutter/Dart
 .dart_tool/
 .packages
 .flutter-plugins
 .flutter-plugins-dependencies
-.flutter-version
-.idea/
-.vscode/
+.flutter-versions
+.melos_tool/
+pubspec.lock
+
+# Build
 build/
 ios/Flutter/Flutter.framework
 ios/Flutter/Flutter.podspec
 ios/ServiceDefinitions.json
-pubspec.lock
+ios/Runner/GeneratedPluginRegistrant.*
+macos/Flutter/GeneratedPluginRegistrant.swift
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+web/.dart_tool/
 
-# OS
+# Android
+android/.gradle/
+android/captures/
+android/app/*.iml
+android/local.properties
+**/GeneratedPluginRegistrant.java
+
+# Xcode
+ios/Pods/
+ios/.symlinks/
+ios/build/
+ios/DerivedData/
+ios/Runner.xcworkspace/
+ios/Flutter/App.framework
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+*.moved-aside
+*.hmap
+*.ipa
+
+# IntelliJ / VSCode
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Misc
+*.lock
