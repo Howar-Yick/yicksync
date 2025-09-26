@@ -1,0 +1,25 @@
+
+name: yicksync
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+# ---- 把下面这几行加进去 ----
+environment:
+  sdk: '>=3.4.3 <4.0.0' # 使用你当前Flutter版本建议的范围，或者用提示的 '^3.9.0' 也可以
+# -------------------------
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2  # 用于发起网络请求
+  shared_preferences: ^2.3.2 # 用于在本地存储认证信息
+  url_launcher: ^6.3.0 # 用于打开浏览器进行认证
+  path_provider: ^2.0.11 # 用于获取设备文件路径
+  crypto: ^3.0.3 # 用于计算文件哈希
+
+  flutter_background_service: ^5.0.1
+  flutter_background_service_android: ^6.2.1
+  flutter_local_notifications: ^17.1.2
+  device_info_plus: ^10.1.0
+  permission_handler: ^11.3.1
